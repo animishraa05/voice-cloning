@@ -24,8 +24,12 @@ A simple python script for zero-shot voice cloning using Coqui TTS (XTTS-v2). Yo
 
 Run the script by providing the text you want to synthesize and a reference audio file (`.wav` format, 6-10 seconds long, clean voice without background noise).
 
+### Example
+
+This repository includes a sample reference audio `example_reference.wav` (from the LJSpeech dataset). You can run a quick test using this included sample:
+
 ```bash
-python main.py --text "Hello, this is a test of voice cloning." --speaker_wav reference.wav --output output.wav
+python main.py --text "Hello! This is a demonstration of how the cloned voice sounds using the included example reference." --speaker_wav example_reference.wav --output example_output.wav
 ```
 
 ### Arguments
