@@ -26,7 +26,11 @@ Run the script by providing the text you want to synthesize and a reference audi
 
 ### Example
 
-This repository includes a sample reference audio `example_reference.wav` (from the LJSpeech dataset). You can run a quick test using this included sample:
+This repository includes a sample reference audio `example_reference.wav` (from the LJSpeech dataset). You can run a quick test using this included sample.
+
+**Listen to the Reference Audio:**
+
+<video src="https://github.com/animishraa05/voice-cloning/raw/main/example_reference.mp4" width="600" height="100" controls></video>
 
 ```bash
 python main.py --text "Hello! This is a demonstration of how the cloned voice sounds using the included example reference." --speaker_wav example_reference.wav --output example_output.wav
