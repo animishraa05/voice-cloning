@@ -1,4 +1,5 @@
 venv/
+.venv/
 __pycache__/
 *.wav
 !example_reference.wav
